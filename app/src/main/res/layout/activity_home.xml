@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:background="#FFFFD1">
+
+    <TextView
+        android:id="@+id/bluetoothflag"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableTop="@drawable/ic_action_name_offer"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Sample"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="#FF0000"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/offerBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_offer"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Offers"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_events"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Events"
+            android:id="@+id/eventsBtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_contests"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Contests"
+            android:id="@+id/contestsBtn" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_stores"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Stores"
+            android:id="@+id/storesBtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_entertainment"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Entertainment"
+            android:id="@+id/entertainmentBtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_action_name_dinings"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Dinings"
+            android:id="@+id/diningsBtn" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="#00FF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_shopping"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Shoppping List"
+            android:id="@+id/shoppingBtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_action_name_maps"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Maps"
+            android:onClick="onGridBtnClick"
+            android:id="@+id/mapsBtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_action_name_parking"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGridBtnClick"
+            android:text="Parking Assist"
+            android:id="@+id/parkingBtn" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#0000FF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/ic_action_name_friend"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Find a Friend"
+            android:id="@+id/friendBtn" />
+    </LinearLayout>
+</LinearLayout>
